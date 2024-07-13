@@ -1,6 +1,3 @@
-Claro, aquí tienes un README ajustado para el proyecto de automatización de pruebas en una aplicación móvil utilizando Appium, Serenity BDD y Cucumber.
-
-
 # Automatización de Pruebas para Aplicación Móvil de Booking
 
 Este proyecto contiene pruebas automatizadas para la aplicación móvil de Booking utilizando Appium, Cucumber y Serenity BDD.
