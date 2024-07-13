@@ -1,0 +1,4 @@
+com\yape\mobile\runners\CucumberTestSuite.class
+com\yape\mobile\step\BookingSteps.class
+com\yape\mobile\stepdefinitions\BookingStepDefinitions.class
+com\yape\mobile\screens\HomeScreenBookings.class

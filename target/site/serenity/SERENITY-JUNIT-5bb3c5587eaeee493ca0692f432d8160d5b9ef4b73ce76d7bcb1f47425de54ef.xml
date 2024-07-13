@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Flujo completo de reserva de alojamiento en Booking" skipped="0" tests="1" time="70.04" timestamp="2024-07-12 07:20:00"><testcase name="Realizar una reserva de alojamiento"><error message="Step [^llena los datos de la persona que realizará la reserva:$] is defined with 0 parameters at 'com.yape.mobile.stepdefinitions.BookingStepDefinitions.llenaLosDatosDeLaPersonaQueRealizaráLaReserva()'.&#10;However, the gherkin step has 1 arguments:&#10; * Table:&#10;      | firstname | lastname | email           | country | mobile    | purpose |&#10;      | Brandon   | Soto     | sotom@gmail.com | Peru    | 924190881 | Leisure |&#10;&#10;Step text: llena los datos de la persona que realizará la reserva:" type="io.cucumber.core.exception.CucumberException">Step [^llena los datos de la persona que realizará la reserva:$] is defined with 0 parameters at 'com.yape.mobile.stepdefinitions.BookingStepDefinitions.llenaLosDatosDeLaPersonaQueRealizaráLaReserva()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | firstname | lastname | email           | country | mobile    | purpose |
+      | Brandon   | Soto     | sotom@gmail.com | Peru    | 924190881 | Leisure |
+
+Step text: llena los datos de la persona que realizará la reserva:</error><system-err>Step [^llena los datos de la persona que realizará la reserva:$] is defined with 0 parameters at 'com.yape.mobile.stepdefinitions.BookingStepDefinitions.llenaLosDatosDeLaPersonaQueRealizaráLaReserva()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | firstname | lastname | email           | country | mobile    | purpose |
+      | Brandon   | Soto     | sotom@gmail.com | Peru    | 924190881 | Leisure |
+
+Step text: llena los datos de la persona que realizará la reserva:&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>
